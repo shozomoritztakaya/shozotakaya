@@ -43,17 +43,13 @@
                 <div class="col-12 col-lg-5 contact__info">
                     <h4>{{ .Site.Data.homepage.contact.socialmedia.title }}</h4>
                     {{ if .Site.Data.homepage.contact.socialmedia.linkedin }}
-                    <span><i class="fab fa-linkedin"></i>  {{ .Site.Data.homepage.contact.socialmedia.linkedin }}</span>
-                    <br>
-                    <br>
+                    <span style="font-size: 2em;"><a href="{{ .Site.Data.homepage.contact.socialmedia.linkedin | absURL }}" target="_blank"><i class="fab fa-linkedin"></i></a></span>&nbsp;&nbsp;&nbsp;
                     {{ end }}
                     {{ if .Site.Data.homepage.contact.socialmedia.facebook }}
-                    <span><i class="fab fa-facebook-square"></i>  {{ .Site.Data.homepage.contact.socialmedia.facebook }}</span>
-                    <br>
-                    <br>
+                    <span style="font-size: 2em;"><a href="{{ .Site.Data.homepage.contact.socialmedia.facebook | absURL }}" target="_blank"><i class="fab fa-facebook-square"></i></a></span>&nbsp;&nbsp;&nbsp;
                     {{ end }}
                     {{ if .Site.Data.homepage.contact.socialmedia.instagram }}
-                    <span><i class="fab fa-instagram-square"></i>  {{ .Site.Data.homepage.contact.socialmedia.instagram }}</span>
+                    <span style="font-size: 2em;"><a href="{{ .Site.Data.homepage.contact.socialmedia.instagram | absURL }}" target="_blank"><i class="fab fa-instagram-square"></i></a></span>
                     {{ end }}
                 </div>
             </div>
