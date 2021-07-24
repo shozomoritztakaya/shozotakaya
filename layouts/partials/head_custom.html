@@ -2,22 +2,22 @@
 <link rel="icon" href="{{ .Site.Params.icons.favicon | absURL }}">
 
 <!-- HTML Meta Tags -->
-<meta name="description" content="Shozo Takaya's Website">
+<meta name="description" content="{{ .Site.Params.metatags.description | absURL }}">
 
 <!-- Facebook Meta Tags -->
 <meta property="og:url" content="https://shozotakaya.com/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Shozo Takaya's Website">
-<meta property="og:description" content="This is Shozo Takaya's Website">
-<meta property="og:image" content="">
+<meta property="og:title" content="{{ .Site.Params.metatags.title | absURL }}">
+<meta property="og:description" content="{{ .Site.Params.metatags.description | absURL }}">
+<meta property="og:image" content="{{ .Site.Params.metatags.image | absURL }}">
 
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:domain" content="byeindonesia.com">
+<!-- <meta property="twitter:domain" content="{{ .Site.Data.homepage.contact.socialmedia.twitter | absURL }}"> -->
 <meta property="twitter:url" content="https://shozotakaya.com/">
-<meta name="twitter:title" content="Shozo Takaya's Website">
-<meta name="twitter:description" content="This is Shozo Takaya's Website">
-<meta name="twitter:image" content="">
+<meta name="twitter:title" content="{{ .Site.Params.metatags.title | absURL }}">
+<meta name="twitter:description" content="{{ .Site.Params.metatags.description | absURL }}">
+<meta name="twitter:image" content="{{ .Site.Params.metatags.image | absURL }}">
 
 <!-- Robots -->
 <meta name="robots" content="index, follow">

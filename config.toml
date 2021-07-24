@@ -70,6 +70,11 @@ theme = "raditian-free-hugo-theme"
   [params.icons]
     favicon = "img/favicon.ico"
 
+  [params.metatags]
+    title = "Shozo Takaya's Website"
+    description = "Shozo Takaya's Website"
+    image = "img/general/cf-logo-v-rgb.png"
+
   [params.footer]
       copyright = "© Shozo Takaya. All rights reserved."
       [params.footer.radity_logo]

@@ -51,6 +51,9 @@
                     {{ if .Site.Data.homepage.contact.socialmedia.instagram }}
                     <span style="font-size: 2em;"><a href="{{ .Site.Data.homepage.contact.socialmedia.instagram | absURL }}" target="_blank"><i class="fab fa-instagram-square"></i></a></span>
                     {{ end }}
+                    {{ if .Site.Data.homepage.contact.socialmedia.twitter }}
+                    <span style="font-size: 2em;"><a href="{{ .Site.Data.homepage.contact.socialmedia.twitter | absURL }}" target="_blank"><i class="fab fa-twitter-square"></i></a></span>
+                    {{ end }}
                 </div>
             </div>
         </div>
