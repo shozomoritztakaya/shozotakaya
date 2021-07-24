@@ -1,4 +1,4 @@
-# shozotakaya.com
+# [shozotakaya.com](https://shozotakaya.com/)
 
 Edit the **configuration** of the page (CSS, JS, Menu, Google Tag Manager, Logo, Favicon, Footer) on: [config.toml](config.toml)
 
