@@ -65,7 +65,8 @@ theme = "raditian-free-hugo-theme"
 
   [params.logo]
     text1 = "Shozo"
-    text2 = "Takaya"
+    text2 = "Moritz"
+    text3 = "Takaya"
 
   [params.icons]
     favicon = "img/favicon.ico"
