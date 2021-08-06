@@ -32,7 +32,7 @@ theme = "raditian-free-hugo-theme"
 
   [[menu.header]]
   name = "Du kommst hier nicht rein"
-  URL = "#Du kommst hier nicht rein"
+  URL = "https://keinzugriff.shozomoritz.workers.dev/"
   weight = 3
 
   [[menu.header]]
