@@ -46,8 +46,8 @@ about:
     </p>'
   button:
     icon: "icon-smile-fill"
-    btnText: "About Me"
-    URL: "https://www.linkedin.com/company/cloudflare/"
+    btnText: "Mein LinkedIn"
+    URL: "https://www.linkedin.com/in/shozo-moritz-takaya-655696128/"
   image:
     x: "img/who-am-i/user-picture.png"
     _2x: "img/who-am-i/user-picture@2x.png"
