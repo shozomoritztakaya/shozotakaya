@@ -31,8 +31,8 @@ theme = "raditian-free-hugo-theme"
   weight = 2
 
   [[menu.header]]
-  name = "Portfolio"
-  URL = "#portfolio"
+  name = "Du kommst hier nicht rein"
+  URL = "#Du kommst hier nicht rein"
   weight = 3
 
   [[menu.header]]
