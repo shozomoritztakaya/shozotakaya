@@ -48,7 +48,7 @@ theme = "raditian-free-hugo-theme"
 
   [[menu.footer]]
   name = "Portfolio"
-  URL = "#portfolio"
+  URL = "/subpage/"
   weight = 3
 
   [[menu.footer]]
