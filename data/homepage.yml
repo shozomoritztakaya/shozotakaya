@@ -2,7 +2,7 @@
 showcase:
   enable: true
   title: "Hello, I’m Shozo."
-  subtitle: "Business Development Representative"
+  subtitle: "Network Strategy"
   description: "I work at <a target='_blank' href='https://www.cloudflare.com/'>Cloudflare</a>, one of the world’s largest networks which focuses on security, performance, and reliability, and on a mission to help build a better Internet."
   image:
     x: "img/showcase/showcase.png"
